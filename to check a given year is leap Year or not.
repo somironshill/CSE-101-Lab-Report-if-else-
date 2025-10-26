@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main() {
+
+int Golpo;
+
+printf("Input Year =");
+
+scanf("%d", &Golpo);
+
+    if((Golpo % 4==0) && (Golpo % 100!=0) || (Golpo % 400==0))
+
+     {
+
+     printf("%d is a leap year", Golpo);
+
+     }
+
+    else {
+
+     printf("%d is not a leap year", Golpo);
+
+     }
+
+return 0;
+
+}
+
