@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main() {
+
+    char kenny;
+
+    printf("Enter a character :");
+
+    scanf("%c", &kenny);
+
+    if (kenny>= '0' && kenny<= '9') {
+
+    printf("It's a digit");
+
+    }
+
+    else {
+
+      if(kenny>='A' && kenny<='Z') {
+
+      printf("%c is Alphabet and Uppercase", kenny);
+
+      }
+
+      else if(kenny>='a' && kenny<='z') {input
+
+      printf("%c is Alphabet and Lowecase", kenny);
+
+      }
+
+      else{
+
+      printf("It's a special character");
+
+      }
+
+    }
+
+    return 0;
+
+}
+
