@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+ int main() {
+
+ float celsius, fahrenheit;
+
+    printf("Celsius Temperature :");
+
+    scanf("%f", &celsius );
+
+    if(celsius >= -273.15) 
+
+      {
+
+        fahrenheit=(celsius * 9/5) + 32;
+
+        printf("%.2f Celsius = %.2f Fahrenheit", celsius , fahrenheit);
+
+       }
+
+    else {
+
+        printf("invalid input! temperature cannot below -273.15°c");
+
+    }
+
+    return 0;
+}
