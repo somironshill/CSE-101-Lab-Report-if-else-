@@ -1,0 +1,17 @@
+/*to input radius of a circle from user and find diameter,circumference and area
+of circle. */
+
+#include<stdio.h>
+
+int main (){
+
+ float r , pi= 3.14 ;
+ printf("Enter radious of the circle : ");
+ scanf("%f",&r);
+ printf("The diameter of circle is : %.2f\n",2*r);
+ printf("The circumfarance of circle is : %.2f\n",2*pi*r);
+ printf("The area of circle is : %.2f\n",pi*r*r);
+return 0;
+}
+
+
