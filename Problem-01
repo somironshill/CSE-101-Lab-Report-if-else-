@@ -1,3 +1,6 @@
+/* Write a C program to input temperature in Centigrade and convert to Fahrengiet. */
+
+
 #include<stdio.h>
 
  int main() {
